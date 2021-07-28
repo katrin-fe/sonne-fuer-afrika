@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #a9666b;
+  --primary-color: #f9b209;
   --secondary-color: white;
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "La Belle Aurore", cursive;
@@ -25,6 +25,7 @@ h1 {
   margin-top: -100px;
   padding: 150px 0px 0px 0px;
   font-size: 50px;
+  color: rgb(41, 12, 12);
 }
 
 h2 {
@@ -35,7 +36,7 @@ h2 {
 }
 
 img.welcome-image {
-  width: 100%;
+  width: 60%;
   margin-top: 25px;
 }
 
@@ -45,7 +46,7 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: rgb(41, 12, 12);
   opacity: 50%;
   font-size: 17px;
 }
@@ -72,7 +73,14 @@ a.contact-button:hover {
 
 .text {
   font-weight: 550;
+  font-size: 20px;
   margin: 30px 130px 40px 130px;
+  color: rgb(41, 12, 12);
+}
+
+p.text.under-picture {
+  padding-top: 0px;
+  padding-bottom: 30px;
 }
 
 ul {
