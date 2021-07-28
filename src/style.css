@@ -231,6 +231,10 @@ a.link-homoeo-team {
     padding-top: 160px;
   }
 
+  img.welcome-image {
+    width: 450px;
+  }
+
   h2 {
     font-size: 40px;
     margin-top: 2px;
